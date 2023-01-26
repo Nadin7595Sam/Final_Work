@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.Clear();
+string[] WinxClub = {"Bloom", "Musa", "Flora"};  
+Random rand = new Random();
+int i = rand.Next(WinxClub.Length);
+
+Console.WriteLine($"{WinxClub[i]}");
