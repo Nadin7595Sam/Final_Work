@@ -1,6 +1,8 @@
 ﻿Console.Clear();
-string[] WinxClub = {"Bloom", "Musa", "Flora"};  
-Random rand = new Random();
-int i = rand.Next(WinxClub.Length);
 
-Console.WriteLine($"Фея {WinxClub[i]}");
+var WinxClub = new string[] {"Bloom", "Musa", "Flora", "Techna", "Stella"};
+Array.Resize(ref WinxClub, 2);
+ 
+foreach (var fairy in WinxClub)
+    Console.Write($"{fairy} ");
+Console.WriteLine();
