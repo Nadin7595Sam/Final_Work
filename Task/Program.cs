@@ -3,4 +3,4 @@ string[] WinxClub = {"Bloom", "Musa", "Flora"};
 Random rand = new Random();
 int i = rand.Next(WinxClub.Length);
 
-Console.WriteLine($"{WinxClub[i]}");
+Console.WriteLine($"Фея {WinxClub[i]}");
